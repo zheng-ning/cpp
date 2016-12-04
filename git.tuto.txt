@@ -1,0 +1,21 @@
+为了避免输入username和password，可以简单的将
+
+url = https://github.com/username/test.git
+
+修改为：
+
+url = git@github.com:username/repo.git
+
+
+
+或
+
+url = https://username:passwd@github.com/username/test.git
+
+username和passwd分别对应与用户名和密码。
+
+https://github.com/zheng-ning/cpp.git
+
+修改 gitconfig文件
+
+https://[userName]:[password]@github.com/[username]/project.git
