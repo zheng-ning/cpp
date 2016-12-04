@@ -19,7 +19,7 @@ struct Person{
     Maison& home;
 };
 
-void affiche(const Personne& p){
+void affiche(const Person& p){
     cout << p.name << " habite " << p.home.address << endl;
 }
 
