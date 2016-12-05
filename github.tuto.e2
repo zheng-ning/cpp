@@ -1,0 +1,7 @@
+$ git config --global user.name "zheng-ning"
+$ git config --global user.email "john.n.y@icloud.com"
+$ git remote add origin https://github.com/zheng-ning/cpp.git
+
+git clone https://github.com/zheng-ning/cpp.git
+git remote rm origin
+git remote remove origin
